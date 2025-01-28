@@ -186,7 +186,7 @@
     <!-- main section -->
     <main md:container mx-auto>
       <!-- featured bikes -->
-      <div class="mb-40">
+      <div class="mb-40 md:container mx-auto">
         <!-- text section -->
         <div class="text-center">
           <h2 class="text-[black] text-4xl font-semibold">
@@ -200,12 +200,82 @@
           </small>
         </div>
         <!-- images -->
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
-          <img src="images/others/extrabike.png" alt="" />
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-32 p-14">
           <img src="images/others/feature-bike.png" alt="" />
-          <img src="images/slider/bike4.png" alt="" />
+          <img src="images/others/feature-bike.png" alt="" />
+          <img src="images/others/feature-bike.png" alt="" />
         </div>
       </div>
+
+      <!-- news section -->
+      <section class="mb-40 md:container mx-auto">
+        <h2 class="text-4xl font-semibold text-center mb-12">Latest News</h2>
+        <!-- cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- card 1 -->
+          <div class="card bg-base-100 max-w-full shadow-xl">
+            <figure class="p-4">
+              <img
+                src="images/others/latest1.png"
+                alt="Ducati XDIAVEL S-73 motorcycle"
+                class="w-full h-auto"
+              />
+            </figure>
+            <div class="card-body space-y-3">
+              <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions">
+                <button class="btn bg-bike-primary btn-md">Buy Now</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 2 -->
+          <div class="card bg-base-100 max-w-full shadow-xl">
+            <figure class="p-4">
+              <img
+                src="images/others/latest2.png"
+                alt="Ducati XDIAVEL S-73 motorcycle"
+                class="w-full h-auto"
+              />
+            </figure>
+            <div class="card-body space-y-3">
+              <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions">
+                <button class="btn bg-bike-primary btn-md">Buy Now</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 3 -->
+          <div class="card bg-base-100 max-w-full shadow-xl">
+            <figure class="p-4">
+              <img
+                src="images/others/latest3.png"
+                alt="Ducati XDIAVEL S-73 motorcycle"
+                class="w-full h-auto"
+              />
+            </figure>
+            <div class="card-body space-y-3">
+              <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions">
+                <button class="btn bg-bike-primary btn-md">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- footer section -->
     <footer></footer>
