@@ -424,8 +424,14 @@
         </h2>
         <!-- hero section -->
         <div class="hero max-w-full">
-          <div class="hero-content flex-col lg:flex-row gap-20">
-            <img src="images/others/faq.png" class="max-w-sm" />
+          <div class="hero-content grid grid-cols-1 lg:grid-cols-2">
+            <div>
+              <img
+                class="max-w-full"
+                src="images/others/faq.png"
+                class="max-w-sm"
+              />
+            </div>
             <div class="space-y-2">
               <div
                 class="collapse collapse-arrow bg-base-200 border border-1 border-blue-300"
@@ -493,6 +499,22 @@
       </section>
     </main>
     <!-- footer section -->
-    <footer></footer>
+
+    <footer class="footer bg-neutral text-neutral-content p-10">
+      <aside>
+        <p>
+          ACME Industries Ltd.
+          <br />
+          Providing reliable tech since 1992
+        </p>
+      </aside>
+      <nav>
+        <h6 class="footer-title">Social</h6>
+        <div class="grid grid-flow-col gap-4">
+          <a><img class="w-36" src="images/others/android.png" alt="" /> </a>
+          <a><img class="w-36" src="images/others/ios.png" alt="" /> </a>
+        </div>
+      </nav>
+    </footer>
   </body>
 </html>
